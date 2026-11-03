@@ -1,0 +1,14 @@
+{
+  "expo": {
+    "name": "MOZILERO AI",
+    "slug": "mozilero-ai",
+    "scheme": "mozileroai",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "plugins": ["expo-router"],
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.mozilero.ai" },
+    "android": { "package": "com.mozilero.ai", "adaptiveIcon": { "backgroundColor": "#3155d9" } }
+  }
+}

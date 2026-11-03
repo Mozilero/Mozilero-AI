@@ -1,0 +1,14 @@
+{
+  "name": "mozilero-ai",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "scripts": {
+    "dev": "npm run dev --workspace @mozilero/web",
+    "build": "npm run build --workspace @mozilero/web",
+    "lint": "npm run lint --workspace @mozilero/web",
+    "typecheck": "npm run typecheck --workspace @mozilero/web",
+    "mobile": "npm run start --workspace @mozilero/mobile"
+  },
+  "engines": { "node": ">=20.9.0" }
+}
